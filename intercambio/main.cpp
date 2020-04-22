@@ -18,3 +18,24 @@ int main()
         }
     return 0;
 }
+
+/*
+int main()
+{
+    int num;
+    cout << "Ingrese un numero: ";
+    cin >> num;
+
+    int tam=sizeof(num);
+    int inver;
+    //cout << tam;
+    while((tam-1)>0){//123
+        inver= num%10;
+        num= num/10;
+        --tam;
+        cout << inver;
+        cout << " "
+        cout << num;
+        ///cout << tam;}
+    return 0;
+}*/
